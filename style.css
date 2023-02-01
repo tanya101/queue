@@ -1,0 +1,74 @@
+.html,
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.queue {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+
+    margin: 100px auto;
+}
+
+.queue-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.queue-timer {
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    padding: 0 15px;
+    color: darkslategray;
+    border: solid 2px;
+    border-radius: 15px;
+}
+
+.queue-ppl {
+    font-size: 40px;
+    margin: 0 auto;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: darkslategray;
+}
+
+.queue-list {
+    display: flex;
+    align-items: baseline;
+    margin: 150px 0 20px 30px;
+    gap: 15px;
+}
+
+.queue-list-timer {
+    font-size: 100px;
+    padding: 0 15px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.queue-list-ppl {
+    font-size: 40px;
+    /* color: darkslategray; */
+}
+
+.button {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 -10px 0 30px;
+    width: 150px;
+    border: solid 1px;
+    /* color: darkslategray; */
+    border-radius: 5px;
+}

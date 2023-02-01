@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Queue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <ul class="queue">
+    <li class="queue-item">
+      <div class="queue-timer" id="timer">30</div>
+      <div class="queue-ppl" id="ppl-1">man woman</div>
+    </li>
+    <li class="queue-item">
+      <div class="queue-timer" id="timer">60</div>
+      <div class="queue-ppl" id="ppl-2">woman</div>
+    </li>
+    <li class="queue-item">
+      <div class="queue-timer" id="timer">120</div>
+      <div class="queue-ppl" id="ppl-3">child</div>
+    </li>
+  </ul>
+
+  <div class="queue-list">
+    <div class="queue-list-timer" id="timer">60</div>
+    <div class="queue-list-ppl" id="ppl-list">man, woman...</div>
+  </div>
+
+    <button class="button" onclick="start();">start</button>
+    <button class="button" onclick="stop();">stop</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
