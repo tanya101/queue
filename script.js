@@ -3,7 +3,7 @@
 // 2. Создать случайный arr с men, woman, child.
 // 3. Если man - сравнивать queue-timer. 
 // 4. Если woman - сравнивать queue-ppl. 
-// 5. Если chaild - выбрать случайным образом.
+// 5. Если child - выбрать случайным образом.
 
 // let seconds = document.getElementsByClassName('queue-timer');
 // let timer = setInterval(seconds - 1), 1000);
